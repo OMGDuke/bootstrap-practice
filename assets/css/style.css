@@ -13,6 +13,9 @@ hr {
   max-width: 950px;
 }
 
+/**/
+/*NAVBAR*/
+/**/
 .navbar {
   font-weight:bold;
   background-color:white;
@@ -58,6 +61,9 @@ hr {
   background-color: white;
 }
 
+/**/
+/*JUMBOTRON*/
+/**/
 .jumbotron {
   background: none;
   text-align: center;
@@ -84,4 +90,13 @@ hr {
   background-color: black;
   color: white;
   font-weight: bold;
+}
+
+/**/
+/*PROJECTS*/
+/**/
+
+.section-heading {
+  font-weight:bold;
+  font-size: 
 }
