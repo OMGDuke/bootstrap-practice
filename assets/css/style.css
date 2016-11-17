@@ -1,0 +1,87 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+  border-color: #BFBEBF;
+  margin:0;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 950px;
+}
+
+.navbar {
+  font-weight:bold;
+  background-color:white;
+  height:75px;
+  padding: 10px 0;
+  border: 0;
+  margin: 0;
+}
+
+.logo {
+  text-decoration: none !important;
+  color:black !important
+}
+.logo:hover {
+  color:black;
+}
+
+#logo-secondary {
+  color:red;
+}
+.navbar-default .navbar-nav>li>a {
+  color:black;
+}
+
+ .navbar-default .navbar-nav > .active > a {
+   color: grey;
+   background: none;
+}
+
+ .navbar-default .navbar-nav > .active > a:hover {
+   background: none;
+}
+
+.divider {
+  padding: 15px 0px 15px;
+}
+
+.collapse {
+  background-color: white;
+}
+
+.collapsing {
+  background-color: white;
+}
+
+.jumbotron {
+  background: none;
+  text-align: center;
+  color: black;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight:bold;
+  font-size: 50px;
+  padding: 0 0 40px;
+  margin-top: 0;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  max-width: 80%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.jumbotron button {
+  width: 120px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
