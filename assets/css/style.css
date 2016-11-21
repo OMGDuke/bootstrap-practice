@@ -141,7 +141,7 @@ hr {
 }
 
 .about-new p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .about p {
@@ -156,6 +156,9 @@ hr {
 /**/
 /*What's new*/
 /**/
+.new {
+  margin-bottom: 30px;
+}
 
 .new hr {
   margin: 20px 0 20px;
@@ -179,11 +182,68 @@ hr {
 }
 
 .new p {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
   color: #666;
 }
 
 .new p span {
   color: red;
+}
+
+/**/
+/*FOOTER*/
+/**/
+
+footer {
+  font-weight: 800;
+  margin: 20px 0 20px;
+}
+
+footer span {
+  color: red;
+}
+
+footer .copyright {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+footer .copyright {
+  text-align: center;
+  }
+}
+
+@media (max-width: 993px) {
+footer .copyright {
+  text-align: none;
+  }
+}
+
+footer .bottom-nav a {
+  padding: 0 15px 0;
+  text-decoration: none !important;
+  color: black;
+}
+
+footer .bottom-nav a:hover {
+  color: #333;
+}
+
+footer .bottom-nav .active {
+  color: #808080;
+}
+
+@media (max-width: 992px) {
+  footer .bottom-nav {
+  float: none;
+  text-align: center;
+  }
+}
+
+ @media (min-width: 993px) {
+   footer .bottom-nav {
+     float: right;
+     text-align: right;
+   }
 }
